@@ -6,7 +6,7 @@ va applicato uno sconto del 40% per gli over 65.
 L'output del prezzo finale va stampato in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Ricordatevi un metodo che abbiamo visto durante le lezioni precedenti.
 :avviso: Prima di scrivere il codice impostate il ragionamento nel file README.md!
 Bonus:
-Applicare de controlli sull'input dell'utente -->
+Applicare dei controlli sull'input dell'utente -->
 
 ### Dati
 -prezzo del biglietto 0.21 euro / km
@@ -21,6 +21,6 @@ Applicare de controlli sull'input dell'utente -->
 -poi si prosegue con l'applicazione dello sconto:
  -20% per i passeggeri con età inferiore a 18 anni
  -40% per i passeggeri con età superiore o uguale a 65 anni
- 
+
 ### Output
 -prezzo totale del viaggio con due numeri decimali (centesimi) 
