@@ -17,4 +17,4 @@ if (userEta < 18) {
     ticketPriceOff = (ticketPrice - (ticketPrice * 0.40))
 }
 
-console.log(ticketPriceOff)
+console.log(ticketPriceOff.toFixed(2))
