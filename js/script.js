@@ -1,14 +1,14 @@
 // dati
 const userKm = prompt("quanti kilometri sarà lungo il tuo viaggio?");
-console.log(userKm);
+console.log(userKm, typeof Number);
 
 const userEta = prompt("quanti anni hai?");
-console.log(userEta);
+console.log(userEta, typeof Number);
 
 const ticketPrice = (0.21 * userKm);
 console.log(ticketPrice);
 
-let ticketPriceOff;
+let ticketPriceOff = ticketPrice;
 
 // esecuzione
 if (userEta < 18) {
